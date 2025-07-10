@@ -29,6 +29,15 @@
 
 ---
 
+## 🔗 Enlaces de interés
+
+- 💬 **Discord:** [únete Aquí](https://discord.gg/jTrRAuGfwm)
+- 🌐 **Sitio web oficial:** *(Próximamente)*
+- 📺 **Tráiler oficial:** *(Próximamente)*
+- 📚 **Guía de inicio RP:** [Ver guía](https://tuweb.com/guia)
+- 📖 **Normativa del servidor:** [Consulta aquí](https://tuweb.com/normas)
+- 🛠️ **Estado del servidor:** [Ver estado](https://tuweb.com/estado)
+
 ## 🗂️ Estructura del Proyecto
 
 ```bash
