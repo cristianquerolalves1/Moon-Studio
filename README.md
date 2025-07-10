@@ -31,7 +31,7 @@
 
 ## 🔗 Enlaces de interés
 
-- 💬 **Discord:** [únete Aquí](https://discord.gg/jTrRAuGfwm)
+- 💬 **Discord:** [Únete Aquí](https://discord.gg/jTrRAuGfwm)
 - 🌐 **Sitio web oficial:** *(Próximamente)*
 - 📺 **Tráiler oficial:** *(Próximamente)*
 - 📚 **Guía de inicio RP:** [Ver guía](https://tuweb.com/guia)
