@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Moon Studio</title>
+  <meta name="title" content="Moon Studio">
+  <meta name="description" content="Página oficial de Moon Studio">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+      
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Inicio</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Sobre Nosotros</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Normativa</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Comunidad</a>
+          </li>
+
+          <li>
+            <a href="./formulario.html" class="navbar-link">¡Únete!</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Moon Studio</h1>
+
+            <p class="hero-subtitle">
+              El futuro del roleplay
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/" width="400" height="400" alt="moon-studio" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Moon Studio es un servidor de roleplay en GTA V enfocado en la narrativa, el realismo y la construcción de personajes dentro de un entorno urbano vivo, dinámico y cuidadosamente diseñado.
+            </p>
+
+            <a href="./formulario.html" class="btn has-before">
+              <span class="span">Whitelist</span>
+
+              <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Soluciones que brindamos
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Servicios</h2>
+            </div>
+
+            <p class="section-text">
+             Creamos sistemas funcionales, narrativas inmersivas y experiencias urbanas únicas en GTA V.
+Nuestro enfoque combina diseño, tecnología y comunidad para ofrecer un entorno de rol serio, dinámico y sostenible. Cada servicio que ofrecemos está alineado con una visión de calidad, innovación y realismo.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Acceso exclusivo mediante sistema de whitelist</h3>
+
+                  <p class="card-text">
+                    Implementamos un proceso de selección controlado que garantiza una comunidad madura, comprometida y alineada con los valores del roleplay serio.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Desarrollo urbano y tecnológico personalizado</h3>
+
+                  <p class="card-text">
+                    Contamos con un entorno virtual optimizado y adaptado, construido sobre herramientas y scripts propios que garantizan estabilidad, rendimiento y estética cuidada.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Experiencia de usuario centrada en la narrativa</h3>
+
+                  <p class="card-text">
+                   Cada mecánica está pensada para potenciar el desarrollo de personajes, generar vínculos naturales y permitir que cada historia evolucione de forma coherente y memorable.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Gestión profesional y soporte continuo</h3>
+
+                  <p class="card-text">
+                    Nuestro equipo opera bajo estándares organizativos, con estructura interna, protocolos claros y atención directa para mantener un entorno sostenible y ordenado.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Cultura de comunidad y crecimiento constante</h3>
+
+                  <p class="card-text">
+                    Fomentamos una visión de largo plazo, construyendo una comunidad activa y responsable, con eventos planificados, feedback continuo y oportunidades de expansión orgánica.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">Diseñamos experiencias únicas</p>
+
+          <h2 class="h2 section-title">Nosotros diseñamos y desarrollamos mundos de rol.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                En Moon Studio damos forma a entornos digitales donde el roleplay se convierte en una experiencia inmersiva, estructurada y técnicamente sólida.
+              </p>
+
+              <p class="section-text">
+                Diseñamos ciudades virtuales, sistemas narrativos y mecánicas personalizadas que redefinen el rol en GTA V.
+              </p>
+
+              <a href="mailto:moonstudiorp@gmail.com" class="btn has-before">moonstudiorp@gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Diseño de Roleplay</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Gestión de la Comunidad</p>
+
+                    <data class="progress-value" value="80">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Optimización del Servidor</p>
+
+                    <data class="progress-value" value="95">95%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 95%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Desarrollo Personalizado</p>
+
+                    <data class="progress-value" value="85">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Estamos para ayudarte</p>
+        </li>
+
+        <li>
+          <a href="mailto:moonstudiorp@gmail.com" class="footer-link">moonstudiorp@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Ubicación</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Barcelona — España</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://x.com/moonstudiorp" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://instagram.com/moonstudiorp" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://discord.gg/HtJ8uMQBed" class="social-link">
+            <ion-icon name="logo-discord"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:moonstudiorp@gmail.com" class="social-link">
+    <ion-icon name="mail-unread-outline"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
