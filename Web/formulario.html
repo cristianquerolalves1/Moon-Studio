@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Whitelist | Moon Studio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+</head>
+
+<body class="loaded">
+
+      <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">Moon Studio</a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li><a href="index.html" class="navbar-link">Inicio</a></li>
+          <li><a href="#" class="navbar-link">Sobre Nosotros</a></li>
+          <li><a href="#" class="navbar-link">Normativa</a></li>
+          <li><a href="#" class="navbar-link">Comunidad</a></li>
+          <li><a href="formulario.html" class="navbar-link">Whitelist</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding-top: 140px;">
+
+<div id="form-success" class="form-success-message">
+  <div class="form-success-box">
+    <div class="success-icon">✔</div>
+    <h2 class="success-title">¡Solicitud enviada con éxito!</h2>
+    <p class="success-text">
+      Tu formulario de whitelist ha sido recibido correctamente por nuestro sistema.
+      <br><br>
+      En Moon Studio valoramos a cada miembro de nuestra comunidad, y por eso revisaremos tu solicitud de forma
+      individual, asegurándonos de que cumples con los valores y estándares de calidad que caracterizan nuestro
+      servidor de Roleplay.
+      <br><br>
+      Si tu solicitud es aprobada, recibirás una notificación directa a través de Discord
+      en las próximas horas. Por favor, asegúrate de tener habilitados los mensajes directos
+      en tu perfil y que el nombre que has proporcionado sea correcto.
+      <br><br>
+      En caso de no ser aceptado, también te notificaremos con una breve explicación. Si eso sucede, podrás volver a postular luego de 24 horas corrigiendo los puntos necesarios.
+      <br><br>
+      Mientras tanto, te invitamos a leer nuevamente nuestra normativa y explorar los canales de comunidad para estar al día con todas las novedades del servidor.
+    </p>
+
+    <a href="index.html" class="btn-outline">Volver a la página principal</a>
+<p class="success-footer">
+  Redirigiendo automáticamente en <span id="countdown">30</span> segundos…
+</p>
+
+  </div>
+</div>
+
+
+
+      <div class="container">
+        <h2 class="h2 section-title">Solicitud de Whitelist</h2>
+        <p class="section-subtitle">Por favor responde con atención. Cada solicitud será evaluada manualmente.</p>
+
+        <form id="whitelist-form">
+
+
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="discord">Usuario de Discord</label>
+            <input type="text" id="discord" name="discord" required />
+          </div>
+
+          <div class="form-group">
+            <label for="discordId">ID de Discord</label>
+            <input type="text" id="discordId" name="discordId" required />
+          </div>
+
+          <div class="form-group">
+            <label for="edad">Edad real</label>
+            <input type="number" id="edad" name="edad" required />
+          </div>
+
+          <div class="form-group">
+            <label for="experiencia">¿Tienes experiencia en Roleplay?</label>
+            <input type="text" id="experiencia" name="experiencia" />
+          </div>
+
+          <h3>Preguntas de normativa y rol</h3>
+
+          <div class="form-group">
+            <label for="p1">1. Describe una situación que represente metagaming</label>
+            <textarea id="p1" name="p1" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p2">2. ¿Qué es Powergaming?</label>
+            <textarea id="p2" name="p2" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p3">3. ¿Por qué es importante valorar la vida de tu personaje?</label>
+            <textarea id="p3" name="p3" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p4">4. Si alguien te apunta con un arma, ¿cómo deberías reaccionar?</label>
+            <textarea id="p4" name="p4" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p5">5. ¿Está permitido decir “usa el músculo X”? ¿Cómo lo indicarías?</label>
+            <textarea id="p5" name="p5" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p6">6. ¿Qué es Fair-Play y por qué es importante?</label>
+            <textarea id="p6" name="p6" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p7">7. ¿Qué deberías hacer si estás solo contra 7 policías?</label>
+            <textarea id="p7" name="p7" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p8">8. ¿Se permite usar un coche como arma? ¿En qué condiciones?</label>
+            <textarea id="p8" name="p8" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p9">9. ¿Está permitido robar a otros jugadores? Explica bajo qué reglas.</label>
+            <textarea id="p9" name="p9" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p10">10. Si sufres un PK, ¿puedes recordar lo que pasó?</label>
+            <textarea id="p10" name="p10" required></textarea>
+          </div>
+
+          <h3>Casos prácticos y situaciones</h3>
+
+          <div class="form-group">
+            <label for="p11">11. Estás siendo torturado sin consentimiento previo. ¿Qué está mal?</label>
+            <textarea id="p11" name="p11" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p12">12. En una charla IC, un jugador dice: “debo reiniciar el PC IC”. ¿Qué error ves?</label>
+            <textarea id="p12" name="p12" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p13">13. ¿Cómo planificarías un robo a una base militar sin romper el rol?</label>
+            <textarea id="p13" name="p13" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p14">14. ¿Para qué se usan los comandos /me y /do?</label>
+            <textarea id="p14" name="p14" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="p15">15. Escribe dos ejemplos de entorno: uno de robo, otro cotidiano.</label>
+            <textarea id="p15" name="p15" required></textarea>
+          </div>
+
+          <div class="form-group">
+  <label for="verificacion">Escribe la palabra “rol” para confirmar que no eres un bot</label>
+  <input type="text" id="verificacion" name="verificacion" required />
+  <span class="error-message" id="verificacion-error" style="display:none;">Respuesta incorrecta</span>
+</div>
+
+          
+          <button type="submit" class="btn has-before">
+            <span class="span">Enviar Solicitud</span>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </button>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
