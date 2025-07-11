@@ -43,7 +43,7 @@
 ```bash
 📁 /server              # Scripts, assets y configuraciones del RP
 📁 /database            # Dump y estructuras SQL
-📁 /web                 # Landing page (opcional)
+📁 /web                 # PÁGINA WEB
 📄 server.cfg           # Config principal
 🚀 start.sh             # Script de arranque
 📄 README.md          
