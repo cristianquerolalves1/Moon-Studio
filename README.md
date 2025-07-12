@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn.discordapp.com/attachments/1392952814866665572/1392972933114232953/MOON_STUDIO_1.jpg" alt="Moon Studio Banner" width="100%" style="border-radius: 12px;" />
+<img src="https://media.discordapp.net/attachments/1392952814866665572/1392972933114232953/MOON_STUDIO_1.jpg?ex=6872cc23&is=68717aa3&hm=3b244af94e485a9cf4da78745b7bb6cb8ae7600d562227504fbfbab37c7535fd&=&format=webp" alt="Moon Studio Banner" width="100%" style="border-radius: 12px;" />
 
 </div>
 
