@@ -44,6 +44,38 @@
 📁 /server              # Scripts, assets y configuraciones del RP
 📁 /database            # Dump y estructuras SQL
 📁 /web                 # PÁGINA WEB
+  📁 public/
+├── index.html               # Portada principal
+├── formulario.html          # Formulario de whitelist
+├── login.html               # Login de staff
+├── admin.html               # Panel de administración
+├── comunidad.html           # Página de comunidad (noticias/eventos/foro)
+├── normativa.html           # Normativa del servidor
+│
+├── 📁 assets/
+│   ├── 📁 css/
+│   │   ├── style.css        # Estilos generales
+│   │   ├── login.css        # Estilos del login
+│   │   ├── admin.css        # Estilos del panel staff
+│   │   ├── comunidad.css    # Estilos comunidad
+│   │   ├── normativa.css    # Normativa super detallada
+│   │
+│   └── 📁 js/
+│       ├── script.js        # Scripts generales
+│       ├── formulario.js    # Lógica del formulario de whitelist
+│       ├── login.js         # Login staff
+│       ├── admin.js         # Aceptar/Rechazar desde el panel
+│       ├── normativa.js     # Scroll animado o buscador de normativa
+
+📁 db/
+└── solicitudes.json         # Base de datos local de whitelist
+
+📁 utils/
+└── email.js (opcional)      # Sistema de recuperación por email
+
+📄 .env                       # Variables de entorno (webhook, ID canales, token)
+📄 index.js                   # Servidor Express + API + Bot Discord
+📄 package.json               # Dependencias y scripts
 📄 server.cfg           # Config principal
 🚀 start.sh             # Script de arranque
 📄 README.md          
