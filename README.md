@@ -1,4 +1,22 @@
 # 🌆 Moon Studio RP
+<div align="center">
+
+<img src="https://cdn.discordapp.com/attachments/1392952814866665572/1392972933114232953/MOON_STUDIO_1.jpg" alt="Moon Studio Banner" width="100%" style="border-radius: 12px;" />
+
+</div>
+
+<h1 align="center">🌆 Moon Studio RP</h1>
+<h4 align="center">Tu historia. Tu identidad. Tu ciudad.</h4>
+
+<p align="center">
+Un servidor de <strong>GTA V Roleplay</strong> con enfoque realista, sistema profesional de whitelist, desarrollo de personajes libre, y una comunidad moderada para garantizar una experiencia de rol inmersiva y cuidada al detalle.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Whitelist-Activa-4caf50?style=for-the-badge&logo=trustpilot" />
+  <img src="https://img.shields.io/badge/RP-Inmersivo-6a1b9a?style=for-the-badge&logo=themoviedatabase" />
+  <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-ff9800?style=for-the-badge&logo=gear" />
+</p>
 
 > **Tu historia. Tu identidad. Tu ciudad.**  
 > Un servidor serio de GTA V Roleplay con un enfoque moderno, inmersivo y totalmente profesional. Creamos experiencias, no solo partidas.
