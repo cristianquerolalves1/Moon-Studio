@@ -1,4 +1,3 @@
-# 🌆 Moon Studio RP
 <div align="center">
 
 <img src="https://cdn.discordapp.com/attachments/1392952814866665572/1392972933114232953/MOON_STUDIO_1.jpg" alt="Moon Studio Banner" width="100%" style="border-radius: 12px;" />
