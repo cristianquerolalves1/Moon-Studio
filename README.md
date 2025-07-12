@@ -1,89 +1,72 @@
-<div align="center">
-  <img src="https://cdn.discordapp.com/attachments/1392952814866665572/1392972933114232953/MOON_STUDIO_1.jpg" alt="Moon Studio Banner" width="100%" style="border-radius: 12px;" />
-</div>
+# 🌆 Moon Studio RP
 
-<h1 align="center">🌆 Moon Studio RP</h1>
-<h4 align="center"><em>Tu historia, tu identidad, tu ciudad.</em></h4>
-<p align="center">Servidor de GTA V Roleplay con identidad única, narrativa profunda y una comunidad selecta. Donde cada decisión importa.</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Whitelist-Activa-4caf50?style=for-the-badge&logo=trustpilot" />
-  <img src="https://img.shields.io/badge/RP-Inmersivo-6a1b9a?style=for-the-badge&logo=themoviedatabase" />
-  <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-ff9800?style=for-the-badge&logo=gear" />
-</p>
+> **Tu historia. Tu identidad. Tu ciudad.**  
+> Un servidor serio de GTA V Roleplay con un enfoque moderno, inmersivo y totalmente profesional. Creamos experiencias, no solo partidas.
 
 ---
 
-## 🚀 Visión del proyecto
+## 🧭 Visión General
 
-> **Moon Studio RP** no es solo un servidor más.  
-> Es un espacio de rol donde convergen la narrativa, el realismo y la estética.  
-> Un ecosistema serio, profesional y selectivo, diseñado para quienes buscan **rol con propósito**.
+Moon Studio RP nace como una propuesta alternativa al rol genérico y poco moderado. Nuestro objetivo es ofrecer una ciudad **viva**, **realista** y **comunitaria**, donde cada jugador tenga un espacio para desarrollarse y crear historias significativas.
 
----
-
-## 🎯 Características clave
-
-- 🔐 **Sistema de whitelist profesional** con revisión manual y formulario inteligente
-- 🧠 **Narrativa libre pero estructurada**, sin facciones forzadas
-- 💰 **Economía coherente** y autosostenible
-- 🏙️ **Ambientación moderna y scripts optimizados**
-- 🧾 **Normativa extensa y clara**, tipo GitBook (más de 1000 líneas)
-- 📦 **Panel de staff con gestión desde web y bot de Discord**
-- 🤖 **Bot integrado** para logs y aceptación/rechazo desde web
-- 📫 **Sistema de recuperación por email** (próximamente)
-- 💬 **Comunidad seleccionada por afinidad, no por cantidad**
+- Rol serio y coherente
+- Comunidad filtrada con whitelist
+- Soporte humano, cercano y eficaz
+- Estética web profesional, diseño premium
+- Automatización sin perder el toque manual
 
 ---
 
-## 🌐 Enlaces de interés
+## 🚀 Características Principales
 
-| Categoría          | Enlace                                 |
-|--------------------|----------------------------------------|
-| 💬 Discord          | [Unirse al servidor](https://discord.gg/jTrRAuGfwm) |
-| 📚 Normativa        | [Consultar normativa](https://moonstudio.com/normativa) |
-| 📝 Whitelist        | [Solicitar acceso](https://moonstudio.com/formulario.html) |
-| 📖 Guía RP          | [Guía de rol](https://moonstudio.com/guia) |
-| 🛠️ Estado del Servidor | [Ver estado](https://moonstudio.com/estado) |
+- ✅ **Sistema de whitelist avanzado** con panel web
+- 🧠 **Preguntas personalizadas** sobre normativa y rol
+- 🔐 **Formulario con validaciones** y verificación antispam
+- 🤖 **Bot de Discord** que integra el backend con canales de revisión
+- 🛠️ **Dashboard para Staff** con botón de Aceptar/Rechazar
+- ✉️ **Notificaciones automáticas** vía Discord
+- 📦 **Base de datos JSON local** (sin necesidad de SQL)
+- 💻 **Frontend profesional** con diseño oscuro tipo dashboard moderno
 
 ---
 
-## 🧩 Estructura del proyecto
+## 📁 Estructura del Proyecto
 
 ```bash
-📁 /server              # Scripts, assets y configuraciones del RP
-📁 /database            # Estructura SQL y backups
-📁 /web                 # Frontend del panel y sitio oficial
-├── 📁 public/
-│   ├── index.html            # Portada
-│   ├── formulario.html       # Whitelist
-│   ├── login.html            # Login de staff
-│   ├── admin.html            # Dashboard
-│   ├── comunidad.html        # Comunidad (noticias/eventos/foro)
-│   ├── normativa.html        # Normativa visual profesional
+MoonStudio/
 │
-│   └── 📁 assets/
-│       ├── 📁 css/
+├── public/                     # Frontend de la web
+│   ├── index.html             # Página principal
+│   ├── formulario.html        # Formulario de whitelist
+│   ├── login.html             # Login staff
+│   ├── admin.html             # Panel de administración
+│   ├── comunidad.html         # Comunidad: eventos, noticias, foro
+│   ├── normativa.html         # Normativa oficial
+│   ├── recuperar.html         # Recuperar contraseña (próximamente)
+│   │
+│   └── assets/
+│       ├── css/
 │       │   ├── style.css
 │       │   ├── login.css
 │       │   ├── admin.css
 │       │   ├── comunidad.css
-│       │   └── normativa.css
-│       ├── 📁 js/
-│       │   ├── script.js
-│       │   ├── formulario.js
-│       │   ├── login.js
-│       │   ├── admin.js
-│       │   └── normativa.js
-
-📁 /db/
-└── solicitudes.json         # Base de datos local
-
-📁 /utils/
-└── email.js                 # Sistema de recuperación por correo (en progreso)
-
-📄 .env                       # Variables del entorno
-📄 index.js                   # Servidor Express + Bot Discord
-📄 package.json               # Dependencias y scripts
-📄 server.cfg                 # Config del servidor RP
-🚀 start.sh                   # Script de arranque
+│       │   ├── normativa.css
+│       │   └── recuperar.css
+│       └── js/
+│           ├── script.js
+│           ├── formulario.js
+│           ├── login.js
+│           ├── admin.js
+│           ├── normativa.js
+│           └── recuperar.js
+│
+├── db/
+│   └── solicitudes.json       # Base de datos local de whitelists
+│
+├── utils/
+│   └── email.js               # Envío de correos (recuperación)
+│
+├── .env                       # Variables privadas
+├── index.js                   # Servidor Express + API + Discord Bot
+├── package.json               # Dependencias y scripts
+└── README.md                  # Este archivo
