@@ -27,23 +27,6 @@ El proyecto combina **diseño UI/UX de precisión**, desarrollo frontend avanzad
 
 ---
 
-## 🗂️ Estructura del Proyecto
-
-moon-vision/
-├── public/ # Recursos públicos (favicon, meta, etc.)
-├── assets/ # Imágenes, íconos, tipografías
-├── css/ # Estilos globales, variables, animaciones
-├── js/ # Scripts modulares JS
-├── components/ # Componentes reutilizables (cards, headers, loaders)
-├── pages/ # Vistas principales (home, login, dashboard)
-├── index.html # Página principal
-└── README.md # Documentación completa
-
-
-
-
----
-
 ## 💼 Casos de Uso
 
 Moon Vision puede adaptarse a múltiples escenarios profesionales:
